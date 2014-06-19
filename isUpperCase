@@ -1,0 +1,11 @@
+public class isUpperCase {
+
+	public static void main(String[] args) {
+		System.out.println(Character.isUpperCase('z'));
+		System.out.println(Character.isUpperCase('Z'));
+		System.out.println(Character.isUpperCase('\n'));
+		System.out.println(Character.isUpperCase('\t'));
+
+	}
+
+}
