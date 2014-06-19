@@ -1,0 +1,17 @@
+public class isDefined {
+
+	public static void main(String[] args) {
+		char ch;
+		
+		ch = '@';
+		
+		boolean a;
+		
+		a = Character.isDefined(ch);
+		
+		String str = "o caracter" + ch + " tem significado no Unicode" + a;
+		
+		System.out.println(str);
+	}
+
+}
