@@ -1,0 +1,9 @@
+public class isLowerCase {
+	public static void main (String args[]){
+		System.out.println(Character.isLowerCase('v'));
+		System.out.println(Character.isLowerCase('V'));
+		System.out.println(Character.isLowerCase('\n'));
+		System.out.println(Character.isLowerCase('\t'));
+	}
+
+}
