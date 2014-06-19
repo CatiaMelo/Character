@@ -1,0 +1,8 @@
+public class isSpace {
+	public static void main (String args[]) {
+		System.out.println(Character.isSpace('g'));
+		System.out.println(Character.isSpace('2'));
+		System.out.println(Character.isSpace('\n'));
+		System.out.println(Character.isSpace('\t'));
+	}
+}
